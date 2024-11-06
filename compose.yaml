@@ -1,8 +1,9 @@
 services:
-  hugo-app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: hugo-app
-    ports:
-      - 7080:80
+    hugo-app:
+        image: docker pull ghcr.io/nisarsarwar/docker-schulung-app:main
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: hugo-app
+        ports:
+            - 7080:80

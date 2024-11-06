@@ -45,8 +45,8 @@ jobs:
 
             - name: Portainer Webhook
               run: |
-                  echo "Deployed to ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.meta.outputs.version }}"
+                  echo "Deployed to ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.meta.outputs.tags }}"
 
-                  # curl -X Post "$"$PORTAINER_WEBHOOK"
-                  # env:
-                  #     PORTAINER_WEBHOOK: ${{ secrets.PORTAINER_WEBHOOK }}
+                    # curl -X Post "$PORTAINER_WEBHOOK"
+                    # env:
+                    #     PORTAINER_WEBHOOK: ${{ secrets.PORTAINER_WEBHOOK }}

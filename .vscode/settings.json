@@ -1,0 +1,5 @@
+{
+	"yaml.schemas": {
+		"https://json.schemastore.org/github-workflow.json": "file:///e%3A/30_November_Si/Learning_Projects/Dart_Flutter/docker-schulung-app/github/workflows/deploy.yaml"
+	}
+}
